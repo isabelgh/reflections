@@ -4,8 +4,8 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	If I put my files in the staging area they are sort of ready to be published, there is something logically different with this file compared to previous version. In the staging area, git is aware of the files compared to when they just lie in the working directory as any file. I don't really know the value.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+	If I am finnished with a logical change, I can move multiple files that include the change to the staging area. I can then compare the staging area to the repository to make sure that I only commit the changes I intended to move. Otherwise I would have to move individual files wiht the same commit message. The staging area also helps if I need to take breaks and want to store a state without remembering what I changed. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
