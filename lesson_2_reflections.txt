@@ -7,8 +7,8 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 	If I am finnished with a logical change, I can move multiple files that include the change to the staging area. I can then compare the staging area to the repository to make sure that I only commit the changes I intended to move. Otherwise I would have to move individual files wiht the same commit message. The staging area also helps if I need to take breaks and want to store a state without remembering what I changed. 
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches are especially helpful when I want to work on something that's a new idea for the same problem or if I want to refactor the code in a bigger way. If I fail, I can easily discard the changes without having to remember all commits I did. If I succed there would be only one commit to merge it back to the master branch. It is a safety net for bigger changes. 
 
 How do the diagrams help you visualize the branch structure?
 
