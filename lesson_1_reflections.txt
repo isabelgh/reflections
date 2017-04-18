@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	Seeing the diff between the two files makes the content to go over much smaller than a whole file.
+	And since it is displayed on top of each other wiht a minus and a plus sign it is easier to 
+	make out what was changed. Still, it wasn't super easy finding the typo but I could never have
+	found it in a longer file. It still took some time. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	When new changes are added, there are chances something went wrong. If I can easy take back a 
+	version that previously worked, I can be sure that it was this actual change that made it not work. Also, if we collaborate on the same file seeing the full history makes it clear who did
+	what at what point in time. Otherwis it will be hard to track what happened to a file that we
+	all have access to. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Having automatic saves are really good because you don't have to worry about loosing anything
+	that you have been working on. On the other hand, you will get so many versions of the file that it will be hard to get an overview of the changes that has been made. If you have to choose manually there is a risk of loosing any changes if you accidentaly delete the file, but it will also make you think about the logic about what you are currently doing (and focus!) and when it will be a good time to save your work.  
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	It depends on the purpose of the product. For Google Docs, there is a low probability that entries in different files are related, so it's better to go with an autosave mode and treat each file separatley. For Git, the purpose is version control of code, and since functions are written in different files, and they depend on each other it makes sense that if I made a logical change, I need to save the whole piece of logic in one version/save. 
+
+How can you use the commands git log and git diff to view the history of files?
+	If I use git log, I need to stand in the repository directory and enter it. Then git will display a commit number and the describing text under the commit number. It's the latest entry first, in descending order. The text descirbes what the commit was about. To scroll down, I use the arrows. To exit the log, I type q. Git diff takes two commit numbers and displays the diff between them with a plus sign to what is added and a minus sign next to the things that were removed. It's important to take the diff in the right order, meaning newer first then later commit numbers. 
+
+How might using version control make you more confident to make changes that could break something?
+	If I have made something that works, that is a good place to save. Then I can feel safe doing whatever experiments I want and still know I can rely on the version control system to take me back to the safe place where everything worked.
+
+	cmd+shift+h in finder takes me to the home directory!!!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	I want to be able to use git so that I can check out different versions from the repository and test it out. And of course to contribute to development by checking in tests that I have written. I want to use it in my daily work.
