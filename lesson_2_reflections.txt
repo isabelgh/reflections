@@ -11,6 +11,7 @@ What are some situations when branches would be helpful in keeping your history 
 	Branches are especially helpful when I want to work on something that's a new idea for the same problem or if I want to refactor the code in a bigger way. If I fail, I can easily discard the changes without having to remember all commits I did. If I succed there would be only one commit to merge it back to the master branch. It is a safety net for bigger changes. 
 
 How do the diagrams help you visualize the branch structure?
+	Visualizing is always helpful for understanding something. The diagrams show something that looks like a timeline, so you know what changes are made where. And if something is missing you will notice it easier if you have a graph of the branch strucutre.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
