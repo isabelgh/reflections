@@ -1,10 +1,29 @@
-When would you want to use a remote repository rather than keeping all your work local?
-	First of all, keeping work locally is a risk of loosing it, so a remote repository is always a good idea to have as backup. 	Also, when you collaborate with others it is a lot easier to have a single place remote to store things rather than sending files back and forth.
+When would you want to use a remote repository rather than keeping all your 
+work local?
+	First of all, keeping work locally is a risk of loosing it, so a remote 
+	repository is always a good idea to have as backup. 	Also, when you 
+	collaborate with others it is a lot easier to have a single place remote 
+	to store things rather than sending files back and forth.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-	I want to be in control of what base I have for the stuff I am working on if I am collaborating with others that also make changes to the same repository. It might also take some time to sync the files, so if it would happen automatically for all changes made it would be difficult to work at the same time. There might also be merge conflicts.
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+	I want to be in control of what base I have for the stuff I am working 
+	on if I am collaborating with others that also make changes to the same 
+	repository. It might also take some time to sync the files, so if it would 
+	happen automatically for all changes made it would be difficult to work at 
+	the same time. There might also be merge conflicts.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
-	- Fork: A fork is a copy of a github repository. The copy also resides in github. You use a fork when you want to make changes to the files in the repository but you want to keep the original intact. The benefits is that the original writer also gets cred for the files you have copied. 
-	- Clone: When you copy a git hub repository to your local computer, that copy is a clone. Use a clone when you can/want to edit the files in the repository and perhaps share it with specific persons to work togehter. 
-	- Branch: A branch is used when you want to work on something that you want to keep local. Like for instance, you have cloned master and you want to run something a bit more experimental on the side that you don't necessarily want to share with others (just yet anyways). In this case it is easy to make a branch until you feel like sharing the new feature. 
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+	- Fork: A fork is a copy of a github repository. The copy also resides in 
+	github. You use a fork when you want to make changes to the files in the 
+	repository but you want to keep the original intact. The benefits is that 
+	the original writer also gets cred for the files you have copied. 
+	- Clone: When you copy a git hub repository to your local computer, that 
+	copy is a clone. Use a clone when you can/want to edit the files in the 
+	repository and perhaps share it with specific persons to work togehter. 
+	- Branch: A branch is used when you want to work on something that you want 
+	to keep local. Like for instance, you have cloned master and you want to 
+	run something a bit more experimental on the side that you don't 
+	necessarily want to share with others (just yet anyways). In this case it 
+	is easy to make a branch until you feel like sharing the new feature. 
