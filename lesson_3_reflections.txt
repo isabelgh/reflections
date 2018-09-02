@@ -28,3 +28,11 @@ use one instead of another?
 	run something a bit more experimental on the side that you don't 
 	necessarily want to share with others (just yet anyways). In this case it 
 	is easy to make a branch until you feel like sharing the new feature. 
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+	If you collaborate, more people will make changes to the same repository. 
+	If you use fetch, you could see what the other's have changed without you
+	having to take it into consideration while you work on your changes. That
+	way, resolving merge conflicts are easier. And you can resolve those when
+	you are ready to do so.
