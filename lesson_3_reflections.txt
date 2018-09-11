@@ -36,3 +36,14 @@ stored locally?
 	having to take it into consideration while you work on your changes. That
 	way, resolving merge conflicts are easier. And you can resolve those when
 	you are ready to do so.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+	Without Git as version handler it would be more difficult to work on the 
+	same project at the same time. We would have to plan carefully who get's 
+	to change what before merging files every day and we would have to do more
+	testing manually since GitHub wouldn't be there to spot conflicts. All of 
+	that would be harder. But, if you sit next to the other person, it would be 
+	easier to ask for a review by just looking at the other's person's screen
+	not having to do pull requests. But in the end, it would be a lot harder
+	to track all the changes and go back if something goes wrong. 
