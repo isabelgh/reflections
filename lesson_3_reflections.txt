@@ -47,3 +47,14 @@ and what would be harder?
 	easier to ask for a review by just looking at the other's person's screen
 	not having to do pull requests. But in the end, it would be a lot harder
 	to track all the changes and go back if something goes wrong. 
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+	I would choose to make changes is a spearate branch either when 
+	collaborating with others on the same project or if the team was really
+	small but geographicly distributed. The benefit is that others will 
+	naturally have to review my code and the chances for an overall higher 
+	quality are better. 
+	I would choose to make changes directly in master if I was working alone.
+	The benefit of this approach is to save time an hassling with the pull 
+	requests.  
